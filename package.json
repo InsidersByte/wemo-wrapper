@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://insidersbyte@github.com/InsidersByte/wemo-wrapper.git"
   },
-  "author": "Jonathon Kelly",
+  "author": "Jonathon Kelly <jonathon.kelly@insidersbyte.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/InsidersByte/wemo-wrapper/issues"
