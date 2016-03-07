@@ -1,0 +1,28 @@
+{
+  "name": "wemo-wrapper",
+  "version": "0.1.0",
+  "description": "This is a abstraction built on top of https://github.com/timonreinhard/wemo-client.",
+  "main": "index.js",
+  "dependencies": {
+    "wemo-client": "^0.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://insidersbyte@github.com/InsidersByte/wemo-wrapper.git"
+  },
+  "author": "Jonathon Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InsidersByte/wemo-wrapper/issues"
+  },
+  "homepage": "https://github.com/InsidersByte/wemo-wrapper#readme"
+}
