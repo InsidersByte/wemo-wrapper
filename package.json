@@ -3,17 +3,8 @@
   "version": "0.1.0",
   "description": "This is a abstraction built on top of https://github.com/timonreinhard/wemo-client.",
   "main": "index.js",
-  "dependencies": {
-    "wemo-client": "^0.6.6"
-  },
-  "devDependencies": {
-    "eslint": "^2.3.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.0"
-  },
-  "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
-    "test": "npm run lint"
+  "directories": {
+    "examples": "./examples"
   },
   "repository": {
     "type": "git",
@@ -24,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/InsidersByte/wemo-wrapper/issues"
   },
-  "homepage": "https://github.com/InsidersByte/wemo-wrapper#readme"
+  "homepage": "https://github.com/InsidersByte/wemo-wrapper#readme",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "wemo-client": "^0.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0"
+  }
 }
