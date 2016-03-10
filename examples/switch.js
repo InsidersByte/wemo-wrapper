@@ -14,10 +14,18 @@ wemo
 
             console.log(`switch found: ${device.friendlyName}`);
 
+            device.on(device.EVENT_TYPE.STATE_CHANGED, () => {
+                console.log(`switch '${device.friendlyName}' is now turned '${device.friendlyStateName}'`);
+            });
+
             setInterval(() => {
                 console.log(`toggling switch '${device.friendlyName}'`);
 
-                device.toggle();
+                device
+                    .toggle()
+                    .then(() => {
+                        console.log(`finished toggling switch '${device.friendlyName}'`);
+                    });
             }, 2000);
         }
     });

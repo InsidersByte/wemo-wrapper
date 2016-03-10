@@ -6,9 +6,8 @@ module.exports = {
         INSIGHT: 'Insight',
     },
 
-    EVENTS: {
-        BINARY_STATE_EVENT_NAME: 'binaryState',
-        INSIGHT_PARAMS_EVENT_NAME: 'insightParams',
+    EVENT_TYPE: {
+        STATE_CHANGED: 'binaryState',
     },
 
     DISCOVERY_TIMEOUT: 5000,
