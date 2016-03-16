@@ -15,7 +15,7 @@ This is a abstraction built on top of https://github.com/timonreinhard/wemo-clie
 ## Installation
 
 ```bash
-  npm install wemo-wrapper
+npm install wemo-wrapper
 ```
 
 ## Usage
@@ -24,7 +24,9 @@ See the [examples](https://github.com/InsidersByte/wemo-wrapper/tree/master/exam
 
 ## Contributing
 
-Contributions are very welcome! Please note that by submitting a pull request for this project, you agree to license your contribution under the [MIT License](https://github.com/insidersbyte/wemo-wrapper/blob/master/LICENSE) to this project.
+Contributions are very welcome!
+
+Please note that by submitting a pull request for this project, you agree to license your contribution under the [MIT License](https://github.com/insidersbyte/wemo-wrapper/blob/master/LICENSE) to this project.
 
 ## License
 
