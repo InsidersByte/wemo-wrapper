@@ -1,7 +1,7 @@
 {
   "name": "wemo-wrapper",
   "version": "0.2.0",
-  "description": "This is a abstraction built on top of https://github.com/timonreinhard/wemo-client.",
+  "description": "JavaScript library for discovering and interacting with Wemo devices",
   "main": "index.js",
   "directories": {
     "examples": "./examples"
